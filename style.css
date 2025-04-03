@@ -1,0 +1,145 @@
+@import url(components/navbar.css);
+
+body {
+	margin: 0;
+	background-color: #f9f8f4;
+	font-family: "Inter", sans-serif;
+	color: #1c232f;
+	text-align: center;
+}
+
+
+h1 {
+	font-size: 64px;
+	margin: 0px;
+	text-transform: uppercase;
+	color: white;
+	font-family: "Roboto", serif;
+
+}
+
+h2, h3 {
+	color: #1c232f;
+}
+
+p, li {
+	line-height: 1.5em;
+
+}
+#p-white{ 
+	color: white;
+	font-size: 24px;
+
+}
+li {
+	text-align: left;
+}
+
+/*ul li {
+	display: inline;
+}
+*/
+a {
+	text-decoration: none;
+	color: #886176;
+}
+
+a:hover {
+	color: #1c232f;
+}
+
+#recipe-image {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 20px;  
+	margin: 20px;
+}
+
+.header {
+	background-color: #1c232f;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.container {
+	width: 1140px; 
+	margin: 0 auto;
+}
+
+.btn-primary {
+	border: solid 1px #886176;
+	padding: 10px;
+	font-weight: 600;
+	border-radius: 2px;
+	margin: 40px;
+	transition: all 0.3s;
+}
+
+.btn-primary:hover {
+	background-color: #886176;
+	color: white;
+}
+
+#recipe-image {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	display: block;
+}
+
+.badge {
+	background-color: #886176;
+	padding: 10px;
+	color: white;
+	margin: 0 10px;
+}
+
+#list-badges {
+	margin: 40px 0;
+
+}
+
+#list-badges li {
+	display: inline;
+
+}
+
+.line-transparent {
+  background: black;
+  width: 100%;
+}
+
+.line-light {
+  height: 50px;
+  width: 20%;
+  background: #ee9ca7;
+}
+
+.line-medium {
+  height: 50px;
+  width: 30%;
+  background: #c86472;
+}
+
+.line-hard {
+  height: 50px;
+  width: 50%;
+  background: #9f3442;
+}
+.card-preparation {
+    flex: 1;
+    background-color: #f9f8f4;
+    padding: 2rem;
+    border-radius: 2px;
+    border-top: 5px solid #886176;
+}
+.card-flex{
+	display: flex;
+	gap:16px;
+}
